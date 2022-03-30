@@ -1,0 +1,36 @@
+body {
+  background-color: #4594e4;
+}
+.heading {
+  color: white;
+  text-align: center;
+  /* font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif; */
+}
+table {
+  width: 90%;
+  height: 50vh;
+  border-collapse: collapse;
+  text-align: center;
+  /* font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif; */
+  /* box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.143); */
+}
+.headers th {
+  /* padding: 10px; */
+}
+.headers th:nth-child(even) {
+  background-color: #5fcaab;
+  color: white;
+}
+.headers th:nth-child(odd) {
+  background-color: #2e4760;
+  color: white;
+}
+.datas tr:nth-child(even) {
+  background-color: #f4f4f4;
+  color: #333;
+}
+.datas tr:nth-child(odd) {
+  background-color: white;
+  color: #333;
+}
